@@ -1,0 +1,12 @@
+.container {
+  text-align: center;
+  background-image: url('../fotos/chris-with-flowers.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position-x: center;
+
+}
+
