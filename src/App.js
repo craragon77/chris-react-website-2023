@@ -2,11 +2,13 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <>
       <div className="container">
-        <p>Good Morning Dave</p>
+        <div className="container-tint">
+          <p>Good Morning Dave</p>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 
