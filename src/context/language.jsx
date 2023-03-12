@@ -6,7 +6,7 @@ const LangContext = createContext(null);
 //2.) create the provider functions and hooks as needed
 export const LangProvider = ({children, ...service}) => {
     //language can either be English or Spanish
-    const [lang, setLang] = useState('eng');
+    const [lang, setLang] = useState(null);
 
     //3.) export values as needed
     const values = {

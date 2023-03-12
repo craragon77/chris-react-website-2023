@@ -1,4 +1,5 @@
 import { useLang } from "../../context/language";
+import './welcome.scss';
 
 export default function Welcome(){
     const langSvc = useLang();
@@ -10,8 +11,8 @@ export default function Welcome(){
 
     return (
         <>
-            <h2>Welcome</h2>
-            <h2>Bienvenidos</h2>
+            <h2 className="welcome">Welcome</h2>
+            <h2 className="welcome">Bienvenidos</h2>
 
             <div>
                 <p>Please select your language</p>

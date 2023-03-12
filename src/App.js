@@ -1,21 +1,23 @@
 import './App.css';
 import Welcome from './components/welcome/welcome';
-import {LangProvider} from './context/language';
+import Home from './components/home/home';
+import {useLang} from './context/language';
 
 function App() {
+  const langSvc = useLang();
   return (
     <>
     {/* Provider imported into the highest-necessary component */}
-      <LangProvider>
         <div className="container">
           <div className="container-tint">
             <div className="content">
               <p>Good Morning Dave</p>
-                <Welcome/>
+              {
+                langSvc.lang ? <Home/> :  <Welcome/>
+              }
             </div>
           </div>
         </div>
-      </LangProvider>
     </>
   );
 }
