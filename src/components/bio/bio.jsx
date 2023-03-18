@@ -1,4 +1,4 @@
-import {useLang} from './context/language';
+import { useLang } from "../../context/language";
 import './bio.scss';
 
 export default function Bio(){

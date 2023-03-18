@@ -13,9 +13,8 @@ export default function Welcome(){
         <>
             <h2 className="welcome">Welcome</h2>
             <h2 className="welcome">Bienvenidos</h2>
-
-            <div>
-                <p>Please select your language</p>
+            <p className="lang-select-label">Please select your language</p>
+            <div className="button-container">
                 <button onClick={() => setLanguage('eng')}>English</button>
                 <button onClick={() => setLanguage('esp')}>Español</button>
             </div>

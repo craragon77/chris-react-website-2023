@@ -1,4 +1,4 @@
-import {useLang} from './context/language';
+import { useLang } from "../../context/language";
 
 export default function Projects(){
     return (
