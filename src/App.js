@@ -10,7 +10,6 @@ function App() {
   const langSvc = useLang();
   return (
     <>
-    {/* Provider imported into the highest-necessary component */}
       {
         !langSvc.lang ? 
           <div className="container">
